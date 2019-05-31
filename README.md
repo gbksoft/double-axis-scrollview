@@ -3,7 +3,7 @@
 ## Installation
 ```
 dependencies {
-    implementation 'com.github.gbksoft:double-axis-scrollview:1.0.0'
+    implementation 'com.github.gbksoft:double-axis-scrollview:v1.0.0'
 }
 ```
 ## How to use
