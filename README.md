@@ -9,7 +9,7 @@ dependencies {
 ## How to use
 ![](img/output.gif)
 
-Add the scroll view to your layout XML, and place inside other views like in regular
+What is the best way to get horizontal and vertical scrolling? You should get rid of the fact that scrollview can host only one direct child with wrap_content to deal with width, height and vertical orientation. You simply wrap the children inside another LinearLayout. Two directional scroll may easily be an original addition to some design projects.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -27,5 +27,12 @@ Add the scroll view to your layout XML, and place inside other views like in reg
 </com.gbksoft.library.DoubleSideScrollView>
 ```
 
+What is the best way to get horizontal and vertical scrolling? You should get rid of the fact that scrollview can host only one direct child with wrap_content to deal with width, height and vertical orientation. You simply wrap the children inside another LinearLayout. Two directional scroll may easily be an original addition to some design projects.
+
+I first considered making two directional scroll view when my designer partner was showing me a lot of pictures. Now, they contained a lot of details and so he zoomed them and moved the cursor to exhibit all the details. And I thought to myself “why not make X and Y scroll” ? So I started coding to make two-Dimension Scrollviews on Android possible. This library is a good example of why [scrolling](https://gbksoft.com/blog/top-5-design-myths/) matters and how it affects design. 
+
+
+This android DoubleSideScrollView is perfect for dealing with huge pictures that require attentive and detailed look. To scroll both horizontally & vertically at the same time is especially convenient when working with a lot of high resolution pics that need a detailed check. Here’s how to make scrollview horizontal and vertical in android.
+
 # Let us know
-We'd be very happy if you sent links to your projects where you use our component. Just send us email to [github@gbksoft.com](mailto:github@gbksoft.com)
+This scrollable view android adjustment is not our only original decision. Contact us by email [hello@gbksoft.com](hello@gbksoft.com) to find out more about our projects! Share your feedback and tell us about yourself. 
