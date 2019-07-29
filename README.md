@@ -1,6 +1,15 @@
 # Scroll view that can be scrolled in two axis at the same time
 
 ## Installation
+```groovy
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
 ```
 dependencies {
     implementation 'com.github.gbksoft:double-axis-scrollview:v1.0.0'
